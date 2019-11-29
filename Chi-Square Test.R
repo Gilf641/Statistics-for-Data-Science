@@ -6,8 +6,9 @@
 require(tidyverse)
 require(tibble)
 require(ggplot2)
-# so here I'm gonna use Titanic Dataset where I'll using Passenger Class and Survived variable
-setwd('C:\\Users\\Rohan Shetty\\Desktop\\Data Science\\DataScience-Python\\titanic')
+
+# so here I'm gonna use Titanic Dataset
+setwd('C:.....')
 data <- read.csv('train.csv')
 
 glimpse(data)
