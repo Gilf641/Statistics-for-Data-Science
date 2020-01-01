@@ -35,4 +35,5 @@ chisq.test(data$Embarked, data$Survived)
 # this again has correlation with the passenger's survival
 
 
-
+# this is my first comment after I dont know 2 months or so
+print('FirstCommit2020')
