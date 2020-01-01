@@ -19,6 +19,9 @@ summary(data)
 data$Pclass <- as.factor(data$Pclass)
 data$Survived <- as.factor(data$Survived)
 str(data)
+summary(data)
+glimpse(data)
+
 
 # Perform Chi-Square Test
 
@@ -30,4 +33,6 @@ chisq.test(data$Sex, data$Survived)
 
 chisq.test(data$Embarked, data$Survived)
 # this again has correlation with the passenger's survival
+
+
 
